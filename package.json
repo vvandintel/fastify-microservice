@@ -16,6 +16,9 @@
     "microservice",
     "node"
   ],
+  "engines": {
+    "node": "16.x"
+  },
   "author": "Vincent P. Van Dintel",
   "license": "MIT",
   "bugs": {
@@ -23,6 +26,12 @@
   },
   "homepage": "https://github.com/vvandintel/fastify-microservice#readme",
   "dependencies": {
+    "@grpc/grpc-js": "^1.4.2",
+    "@opentelemetry/api": "^1.0.3",
+    "@opentelemetry/auto-instrumentations-node": "^0.26.0",
+    "@opentelemetry/exporter-collector-grpc": "^0.25.0",
+    "@opentelemetry/sdk-node": "^0.26.0",
+    "dotenv": "^10.0.0",
     "fastify": "^3.22.1"
   }
 }
